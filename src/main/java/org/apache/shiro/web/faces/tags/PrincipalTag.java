@@ -12,13 +12,13 @@ import java.lang.reflect.Modifier;
 /**
  * <p>Tag used to print out the String value of a user's default principal,
  * or a specific principal as specified by the tag's attributes.</p>
- * <p/>
- * <p> If no attributes are specified, the tag prints out the <tt>toString()</tt>
- * value of the user's default principal.  If the <tt>type</tt> attribute
+ * 
+ * <p> If no attributes are specified, the tag prints out the toString()
+ * value of the user's default principal.  If the type attribute
  * is specified, the tag looks for a principal with the given type.  If the
- * <tt>property</tt> attribute is specified, the tag prints the string value of
+ * property attribute is specified, the tag prints the string value of
  * the specified property of the principal.  If no principal is found or the user
- * is not authenticated, the tag displays nothing unless a <tt>defaultValue</tt>
+ * is not authenticated, the tag displays nothing unless a defaultValue
  * is specified.</p>
  *
  * @author Jeremy Haile
@@ -31,7 +31,7 @@ public class PrincipalTag extends SecureComponent {
      */
     private String type;
     /**
-     * The property name to retrieve of the principal, or null if the <tt>toString()</tt> value should be used.
+     * The property name to retrieve of the principal, or null if the toString() value should be used.
      */
     private String property;
     /**

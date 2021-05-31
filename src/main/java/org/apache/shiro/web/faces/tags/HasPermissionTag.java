@@ -4,7 +4,7 @@ import javax.faces.view.facelets.TagConfig;
 
 /**
  * Tag that renders the tag body only if the current user has the string permissions
- * specified in <tt>name</tt> attribute.
+ * specified in name attribute.
  *
  * @author Deluan Quintao
  */
